@@ -1,8 +1,6 @@
 /*
 | Author: Julian Pineiro
-| Student_Id: 5929297
 | Source: testprog.c
-| Description: Assignment 2
 |
 */
 
