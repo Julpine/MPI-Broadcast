@@ -1,0 +1,25 @@
+How to run the program:
+
+mpirun -np p ./test x y z
+
+p = number of processes
+
+3 command-line inputs (Must be integers):
+
+x = program number
+	1 - Runs broadcast_p0_pow2()
+	2 - Runs broadcast_pow2()
+	3 - Runs broadcast()
+
+y = Value stored in Root
+
+z = Root to store Value
+	Root is always 0 for program #1
+
+Example:
+
+mpirun -np 8 ./test 3 4 5
+
+Program = 3
+Value = 4
+Root = 5
